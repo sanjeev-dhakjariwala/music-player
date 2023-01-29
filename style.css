@@ -1,0 +1,54 @@
+:root {
+  --background-color: #0c1126;
+  --footer-bg-color: #292829;
+}
+body {
+  background-color: var(--background-color);
+  font-family: "Segoe UI", Arial, sans-serif;
+  position: relative;
+  min-height: 100vh;
+  color: white;
+  overflow:auto
+}
+
+#brand-fav {
+  border: dashed red;
+}
+.navbar-nav > li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.navbar-nav > input {
+  border-radius: 4rem;
+}
+#singer{
+  color: #6b6b6a;
+}
+#play-control{
+  margin-right: 100px;
+}
+.btn-1 {
+
+  background-image: linear-gradient(to left, #552cbb 0%, #8236c9 51%, #ae43d8 100%);
+}
+aside {
+  width: 40%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+}
+#footer {
+  position: fixed;
+  bottom: 1px;
+  width: 100%;
+  height: fit-content; /* Footer height */
+  background-color: var(--footer-bg-color);
+  display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	flex-wrap: nowrap;
+	padding: 0px 3%;
+	box-sizing: border-box;
+	z-index: 6;
+}
