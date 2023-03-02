@@ -2,4 +2,4 @@
 
 A simple music player app made using HTML and Bootstrap.
 
-https://master--frabjous-sherbet-0993cc.netlify.app/
+https://sanjeev-dhakjariwala.github.io/music-player/
